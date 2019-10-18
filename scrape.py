@@ -3,7 +3,7 @@ import time
 import smtplib
 import text
 #define the path for the chrome webdriver
-chrome_path = r"C:/web/jobListing/chromedriver.exe"
+chrome_path = r"C:/web/jobListing/Selenium-Job-Scraper/chromedriver.exe"
 
 #create a instance of the webdriver
 driver = webdriver.Chrome(chrome_path)
@@ -19,6 +19,7 @@ match = []
 keywords = ['QA',
             'QUALITY',
             'ASSURANCE',
+            'ANALYST',
             ]
 
 
