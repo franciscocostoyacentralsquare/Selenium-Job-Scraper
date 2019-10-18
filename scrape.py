@@ -40,5 +40,5 @@ for result in results:
             print(f"No match for {keyword}")
     print('\n\n')
 print(match)
-for hit in match:
-    text.sendSms(hit)
+
+text.sendSms(f"{match}")
