@@ -12,7 +12,7 @@ driver.get("https://recruit.hirebridge.com/v3/CareerCenter/v2/?cid=7724")
 time.sleep(7)
 jobs = driver.find_elements_by_class_name("col-md-8.jobtitle")
 
-print("starting print")
+print("starting keyword search")
 
 results = []
 match = []
