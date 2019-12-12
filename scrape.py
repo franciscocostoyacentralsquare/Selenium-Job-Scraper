@@ -19,7 +19,7 @@ match = []
 keywords = ['QA',
             'QUALITY',
             'ASSURANCE',
-            'ANALYST',
+            'ANALYST'
             ]
 
 
